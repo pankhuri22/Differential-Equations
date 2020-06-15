@@ -30,4 +30,5 @@ The final result is judged on the basis of 2-norm relative residuals, the relati
 
 * [Perturbed Linear Systems](https://github.com/pankhuri22/Scientific-Computing-/tree/master/Perturbed%20Linear%20Systems) 
 contains script for computation of the linear system sensitivity analysis, also it contains a plot for each b and perturbed b.
+Canthereeverbeapointontheplotforwhichtheverticalcoordinate(thatis,∥δx∥/∥x∥) is larger than the horizontal coordinate (that is, cond(A)∥δb∥/∥b∥)? 
 ![plot](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Perturbed%20Linear%20Systems/plot.png)
