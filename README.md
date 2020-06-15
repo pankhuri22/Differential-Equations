@@ -5,8 +5,8 @@ This repository contains implementations of Linear ALgebra techniques and algori
 * Perturbed Linear Systems 
 * Least Squares fitting with Gram-Schmidt and QR
 * Eigenvalue finding using:
-  -power iteration
-  -inverse ietration
-  -Rayleigh quotient iteration
-  -QR iteration, etc.
+  * power iteration
+  * inverse ietration
+  * Rayleigh quotient iteration
+  - QR iteration, etc.
 * Principal Component Analysis
