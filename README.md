@@ -15,4 +15,4 @@ This repository contains implementations of Linear ALgebra techniques and algori
 
 
 ## Repository Structure 
-* Directory [Gaussian elimination] contains scripts for performing gaussian elimination on a matrix using no pivoting and partial pivoting methods.
+* Directory [Gaussian elimination](https://github.com/pankhuri22/Scientific-Computing-/tree/master/Gaussian%20elimination) contains scripts for performing gaussian elimination on a matrix using no pivoting and partial pivoting methods.
