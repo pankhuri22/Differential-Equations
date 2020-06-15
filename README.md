@@ -7,12 +7,12 @@ This repository contains implementations of Linear ALgebra techniques and algori
 * Perturbed Linear Systems 
 * Least Squares fitting with Gram-Schmidt and QR
 * Eigenvalue finding using:
-  * power iteration
-  * inverse ietration
-  * Rayleigh quotient iteration
-  * QR iteration, etc.
+  1. power iteration
+  2. inverse ietration
+  3. Rayleigh quotient iteration
+  4. QR iteration, etc.
 * Principal Component Analysis
 
 
 ## Repository Structure 
-* Directory Gaussian elimination/ contains scripts for performing gaussian elimination on a matrix using no pivoting and partial pivoting methods.
+* Directory [Gaussian elimination]Gaussian elimination contains scripts for performing gaussian elimination on a matrix using no pivoting and partial pivoting methods.
