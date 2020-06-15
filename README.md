@@ -54,6 +54,8 @@ plots for data and five fitted polynomials using Numpy :
 
 <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree1.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree2.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree3.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree4.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree5.png" width="250"/> 
 
+plots for data and five fitted polynomials using QR Factorization : 
+<img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/QR.png" width="400"/> 
 
 Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in relative error but the polynomial degrees differ.
 We observe that higher polynomial degree like 5 fits the data better than the rest of them.
