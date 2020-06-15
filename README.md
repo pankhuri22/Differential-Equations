@@ -8,5 +8,5 @@ This repository contains implementations of Linear ALgebra techniques and algori
   * power iteration
   * inverse ietration
   * Rayleigh quotient iteration
-  - QR iteration, etc.
+  * QR iteration, etc.
 * Principal Component Analysis
