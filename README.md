@@ -30,5 +30,19 @@ The final result is judged on the basis of 2-norm relative residuals, the relati
 
 * [Perturbed Linear Systems](https://github.com/pankhuri22/Scientific-Computing-/tree/master/Perturbed%20Linear%20Systems) 
 contains script for computation of the linear system sensitivity analysis, also it contains a plot for each b and perturbed b.
-Canthereeverbeapointontheplotforwhichtheverticalcoordinate(thatis,∥δx∥/∥x∥) is larger than the horizontal coordinate (that is, cond(A)∥δb∥/∥b∥)? 
+There can never be a point on the plot for which the vertical coordinate(thatis,∥δx∥/∥x∥) is larger than the horizontal coordinate (that is, cond(A)∥δb∥/∥b∥)because according to the inequality we have that vertical can never be larger than horizontal. also from the graph we can see that the y coordinates are very very small as compared to x coordinate and they can never be equal.
 ![plot](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Perturbed%20Linear%20Systems/plot.png)
+
+* [Power_iteration.py](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Power_iteration.py) containts implementation of the power iteration method of finding eigen values and corresponding eigen vectors of a matrix. The resultant eigen value and eigen vector are : 
+  1. eigen value. : 11.0
+  2. eigen vector : array([0.5 , 1. , 0.75])
+
+* The Directory [QR Factorization](https://github.com/pankhuri22/Scientific-Computing-/tree/master/QR%20Factorization) has: 
+  1. Implementation of QR Factorization using Gram-Schmidt procedure
+  2. Implementation of least square method to fit data to polynomials of degree 1 to 5 using Qr factorization and numpy.linalg.lstsq() method of NumPy. The results are as follows : 
+  
+  |              | A.shape   | Q.shape    | R.shape.    | Rel_error               | A.cond             | Q. cond     | R.cond     | 
+  | :------------- | :----------: | -----------: || :------------- | :----------: | -----------: | -----------: |
+  | 5x5          |  5x5      | 5x5        | 5x5         |7.662753060 229763e-17   |37.85837544 0617394 | 1.0000007  | 37.85837544 061737 |
+
+  
