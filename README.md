@@ -69,3 +69,9 @@ Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in 
   2. A plot of the ritz values obtained
   
 ![ritz values](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Lanczos%20Iteration/final%20plot.png)
+
+
+
+## References 
+1. Scientific Computing (Second Edition) by Michael Heath.
+2. Numerical Mathematics and Computing (Seventh Edition) by Ward Cheney and David Kincaid.
