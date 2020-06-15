@@ -68,7 +68,7 @@ Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in 
   1. Implementation of Lanczos iteration and finding the ritz values 
   2. A plot of the ritz values obtained
   
-![ritz values](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Lanczos%20Iteration/final%20plot.png)
+<img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree1.png" width="300"/>
 
 
 
