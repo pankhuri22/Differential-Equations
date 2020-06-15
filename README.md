@@ -58,5 +58,14 @@ plots for data and five fitted polynomials using QR Factorization :
 
 <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/QR.png" width="400"/> 
 
-Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in relative error but the polynomial degrees differ.
-We observe that higher polynomial degree like 5 fits the data better than the rest of them.
+Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in relative error but the polynomial degrees differ. We observe that higher polynomial degree like 5 fits the data better than the rest of them.
+
+* [Inverse_Iteration.py](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Inverse_Iteration.py), [Rayleigh_quotient_iteration.py](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Rayleigh_quotient_iteration.py) and [Qr_iteration_shifts.py](https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR_iteration_shifts.py) contain implementation of the methods for finding eigen values and corresponding eigen vectors for a particular matrix. 
+
+* [Principal_component_analysis.py](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Principal_component_analysis.py) contains implementation of the method for computing SVD of a matrix and its principal components using Python and NumPy.
+
+* [Lanczos Iteration](https://github.com/pankhuri22/Scientific-Computing-/tree/master/Lanczos%20Iteration) has 
+  1. Implementation of Lanczos iteration and finding the ritz values 
+  2. A plot of the ritz values obtained
+  
+![ritz values](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Lanczos%20Iteration/final%20plot.png)
