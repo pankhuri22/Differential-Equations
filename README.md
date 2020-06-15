@@ -39,10 +39,18 @@ There can never be a point on the plot for which the vertical coordinate(thatis,
 
 * The Directory [QR Factorization](https://github.com/pankhuri22/Scientific-Computing-/tree/master/QR%20Factorization) has: 
   1. Implementation of QR Factorization using Gram-Schmidt procedure
-  2. Implementation of least square method to fit data to polynomials of degree 1 to 5 using Qr factorization and numpy.linalg.lstsq() method of NumPy. The results are as follows : 
+  2. Implementation of least square method to fit data to polynomials of degree 1 to 5 using Qr factorization and numpy.linalg.lstsq() method of NumPy.
+  3. Data file for least squares probelm 
+The results are as follows : 
   
 |          |  A.shape |  Q.shape | R.shape |        Rel_error        |        A.cond       |        Q.cond       |        R.cond       |
 |:--------:|:--------:|:--------:|:-------:|:-----------------------:|:-------------------:|:-------------------:|:-------------------:|
 |   5 x 5  |   5 x 5  |   5 x 5  |  5 x 5  |  7.662753060 229763e-17 | 37.85837544 0617394 | 1.00000000 00000007 |  37.85837544 061737 |
 |  10 x 10 |  10 x 10 |  10 x 10 | 10 x 10 | 1.078599527 1980571e-16 |  40.70365863 47463  | 1.00000000 00000022 | 40.70365863 4746354 |
 | 100 x 80 | 100 x 80 | 100 x 80 | 80 x 80 | 2.882530633 2565366e-16 | 115.7470511 5977294 | 1.00000000 00000318 | 115.7470511 5977348 |
+
+
+plots for data and five fitted polynomials  :
+
+Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in relative error but the polynomial degrees differ.
+We observe that higher polynomial degree like 5 fits the data better than the rest of them.
