@@ -52,7 +52,7 @@ The results are as follows :
 
 plots for data and five fitted polynomials using Numpy :
 <img height="350" hspace="10"/>
-<img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree1.png" width="400"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree2.png" width="400"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree3.png" width="400"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree4.png" width="400"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree5.png" width="400"/> 
+<img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree1.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree2.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree3.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree4.png" width="250"/> <img src="https://github.com/pankhuri22/Scientific-Computing-/blob/master/QR%20Factorization/degree5.png" width="250"/> 
 
 
 Conclusion : The two methods that are QR and np.linalg.lstsq() do not differ in relative error but the polynomial degrees differ.
