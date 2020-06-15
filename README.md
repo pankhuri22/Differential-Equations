@@ -41,8 +41,8 @@ There can never be a point on the plot for which the vertical coordinate(thatis,
   1. Implementation of QR Factorization using Gram-Schmidt procedure
   2. Implementation of least square method to fit data to polynomials of degree 1 to 5 using Qr factorization and numpy.linalg.lstsq() method of NumPy. The results are as follows : 
   
-  |              | A.shape   | Q.shape    | R.shape.    | Rel_error               | A.cond             | Q. cond     | R.cond     | 
-  | :------------- | :----------: | -----------: || :------------- | :----------: | -----------: | -----------: |
-  | 5x5          |  5x5      | 5x5        | 5x5         |7.662753060 229763e-17   |37.85837544 0617394 | 1.0000007  | 37.85837544 061737 |
-
-  
+|          |  A.shape |  Q.shape | R.shape |        Rel_error        |        A.cond       |        Q.cond       |        R.cond       |
+|:--------:|:--------:|:--------:|:-------:|:-----------------------:|:-------------------:|:-------------------:|:-------------------:|
+|   5 x 5  |   5 x 5  |   5 x 5  |  5 x 5  |  7.662753060 229763e-17 | 37.85837544 0617394 | 1.00000000 00000007 |  37.85837544 061737 |
+|  10 x 10 |  10 x 10 |  10 x 10 | 10 x 10 | 1.078599527 1980571e-16 |  40.70365863 47463  | 1.00000000 00000022 | 40.70365863 4746354 |
+| 100 x 80 | 100 x 80 | 100 x 80 | 80 x 80 | 2.882530633 2565366e-16 | 115.7470511 5977294 | 1.00000000 00000318 | 115.7470511 5977348 |
