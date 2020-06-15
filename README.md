@@ -1,1 +1,1 @@
-# Differential-Equations
+# Scientific Computing 
