@@ -29,5 +29,5 @@ The final result is judged on the basis of 2-norm relative residuals, the relati
 (iv) gives a very poor accuracy but the residual is very small in this case. Hence the system is ill-conditioned which can also be observed from the condition no of the matrix, that is pretty high.
 
 * [Perturbed Linear Systems](https://github.com/pankhuri22/Scientific-Computing-/tree/master/Perturbed%20Linear%20Systems) 
-contains script for computation of the linear system sensitivity analysis. It contains a plot for each b and perturbed b.
+contains script for computation of the linear system sensitivity analysis, also it contains a plot for each b and perturbed b.
 ![plot](https://github.com/pankhuri22/Scientific-Computing-/blob/master/Perturbed%20Linear%20Systems/plot.png)
